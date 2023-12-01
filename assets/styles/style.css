@@ -1,0 +1,31 @@
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    row-gap: 5px;
+    width: 100%;
+}
+
+.button {
+    background-color: brown;
+    color: white;
+}
+
+.inputline {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.invalidDate {
+    color: red;
+    opacity: 0;
+}
+
